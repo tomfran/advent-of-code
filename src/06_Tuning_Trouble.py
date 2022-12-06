@@ -1,15 +1,15 @@
 from utils.api import get_input
+from functools import partial
 
 input_str = get_input(6).strip()
 
-# answer one
-for i in range(len(input_str) - 4):
-    if len(set(input_str[i : i + 4])) == 4:
-        print(i + 4)
-        break
+n = len(input_str)
 
-# answer two
-for i in range(len(input_str) - 14):
-    if len(set(input_str[i : i + 14])) == 14:
-        print(i + 14)
-        break
+
+def f(i, l):
+    return i + l if len(set(input_str[i : i + l])) == l else n
+
+
+ans1 = min(map(partial(f, l=4), range(n)))
+ans2 = min(map(partial(f, l=14), range(n)))
+print(ans1, ans2)

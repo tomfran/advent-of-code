@@ -6,4 +6,3 @@ l = [sum(map(int, b.split("\n"))) for b in l]
 l.sort()
 
 print(l[-1], sum(l[-3:]))
-

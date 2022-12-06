@@ -25,5 +25,6 @@ def check2(e):
 
 e = input_str.splitlines()
 
-print(len(list(filter(check1, map(parse, e)))))
-print(len(list(filter(check2, map(parse, e)))))
+l = [*map(parse, e)]
+print(len([*filter(check1, l)]))
+print(len([*filter(check2, l)]))

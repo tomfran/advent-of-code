@@ -14,18 +14,16 @@ def priority(s):
     return ret
 
 
-ans = 0
+ans1 = 0
 for s in e:
     n = len(s) // 2
     el = list(set(s[:n]) & set(s[n:]))[0]
-    ans += priority(el)
+    ans1 += priority(el)
 
-print(ans)
-
-ans = 0
+ans2 = 0
 for i in range(0, len(e), 3):
     el = reduce(lambda a, b: a & b, [set(r) for r in e[i : i + 3]])
     el = list(el)[0]
-    ans += priority(el)
+    ans2 += priority(el)
 
-print(ans)
+print(ans1, ans2)
