@@ -6,5 +6,6 @@ Problems list:
 4. [Camp Cleanup](https://github.com/tomfran/advent-of-code/blob/main/src/04_Camp_Cleanup.py)
 5. [Supply Stacks](https://github.com/tomfran/advent-of-code/blob/main/src/05_Supply_Stacks.py)
 6. [Tuning Trouble](https://github.com/tomfran/advent-of-code/blob/main/src/06_Tuning_Trouble.py)
+7. [No Space Left On Device](https://github.com/tomfran/advent-of-code/blob/main/src/07_No_Space_Left_On_Device.py)
 
 Created via: [advent-of-code-setup](https://github.com/tomfran/advent-of-code-setup)
