@@ -8,5 +8,9 @@ Problems list:
 6. [Tuning Trouble](https://github.com/tomfran/advent-of-code/blob/main/src/06_Tuning_Trouble.py)
 7. [No Space Left On Device](https://github.com/tomfran/advent-of-code/blob/main/src/07_No_Space_Left_On_Device.py)
 8. [Treetop Tree House](https://github.com/tomfran/advent-of-code/blob/main/src/08_Treetop_Tree_House.py)
+9. [Rope Bridge](https://github.com/tomfran/advent-of-code/blob/main/src/09_Rope_Bridge.py)
+10. [Cathode-Ray Tube](https://github.com/tomfran/advent-of-code/blob/main/src/10_Cathode-Ray_Tube.py)
+11. [Monkey in the Middle](https://github.com/tomfran/advent-of-code/blob/main/src/11_Monkey_in_the_Middle.py)
+12. [Hill Climbing Algorithm](https://github.com/tomfran/advent-of-code/blob/main/src/12_Hill_Climbing_Algorithm.py)
 
 Created via: [advent-of-code-setup](https://github.com/tomfran/advent-of-code-setup)
