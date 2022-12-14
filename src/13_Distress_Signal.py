@@ -11,9 +11,6 @@ class Packet:
     def __eq__(self, other):
         return self.p == other.p
 
-    def __repr__(self):
-        return str(self.p)
-
     def compare(a, b):
         # both lists
         if type(a) == list and type(b) == list:
