@@ -14,5 +14,7 @@ Problems list:
 12. [Hill Climbing Algorithm](https://github.com/tomfran/advent-of-code/blob/main/src/12_Hill_Climbing_Algorithm.py)
 13. [Distress Signal](https://github.com/tomfran/advent-of-code/blob/main/src/13_Distress_Signal.py)
 14. [Regolith Reservoir](https://github.com/tomfran/advent-of-code/blob/main/src/14_Regolith_Reservoir.py)
+15. [](https://github.com/tomfran/advent-of-code/blob/main/src/15.py)
+16. [Proboscidea Volcanium](https://github.com/tomfran/advent-of-code/blob/main/src/16_Proboscidea_Volcanium.py)
 
 Created via: [advent-of-code-setup](https://github.com/tomfran/advent-of-code-setup)
